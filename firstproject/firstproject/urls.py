@@ -21,21 +21,6 @@ from django.urls import path, include
 urlpatterns = [
     path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
-    path('', include('bank_details.urls')),
-    path('', include('compensation_info.urls')),
-    path('', include('contact.urls')),
-    path('', include('emergency_contact.urls')),
-    path('', include('experience.urls')),
-    path('', include('job_info.urls')),
-    path('', include('management_info.urls')),
-    path('', include('national_info.urls')),
-    path('', include('organization.urls')),
-    path('', include('personal_info.urls')),
-    path('', include('employee.urls')),
-    path('', include('leave_progress.urls')),
-    path('', include('qualification.urls')),
-    path('', include('skills.urls')),
-    path('', include('time_sheet.urls')),
     path('', include('Hr.urls')),
     path('', include('recruiter.urls'))
 ]
