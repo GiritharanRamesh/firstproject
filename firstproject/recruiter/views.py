@@ -32,7 +32,7 @@ def prospectcandidate_Api(request, id=0):
             return JsonResponse("Updated Successfully", safe=False)
         return JsonResponse("Failed to Update")
     elif request.method == 'DELETE':
-        Prospect_Candidate = ProspectCandidate.objects.get(emp=id)
+        Prospect_Candidate = ProspectCandidate.objects.get(empid=id)
         Prospect_Candidate.delete()
         return JsonResponse("Deleted Successfully", safe=False)
 
