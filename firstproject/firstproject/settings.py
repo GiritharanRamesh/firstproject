@@ -84,7 +84,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'tekhrmsd01db',
         'USER': 'hrmsadmin',
-        'PASSWORD': '******',
+        'PASSWORD': 'Tek@1234$',
         'HOST': 'db.tekistic.com',
         'PORT': ' 3306',
 

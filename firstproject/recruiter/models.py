@@ -26,8 +26,5 @@ class ProspectCandidate(models.Model):
     lastUpdatedDate = models.DateField(verbose_name=('last updated  date'),auto_now=True, null=False)
     lastUpdatedBy = models.CharField(blank=True, max_length=10, null=True)
 
-    def __str__(self):
-        return self.use
-
 
 
